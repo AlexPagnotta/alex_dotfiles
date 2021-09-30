@@ -1,0 +1,13 @@
+[core]
+	excludesfile = /Users/alexpagnotta/.gitignore_global
+[user]
+	name = Alex Pagnotta
+	email = ap.alex.pagnotta@gmail.com
+[diff]
+    tool = vscode
+[merge]
+    tool = vscode
+[difftool "vscode"]
+    cmd = /opt/homebrew/bin/code --wait --diff $LOCAL $REMOTE
+[mergetool "vscode"]
+    cmd = /opt/homebrew/bin/code --wait $MERGED
