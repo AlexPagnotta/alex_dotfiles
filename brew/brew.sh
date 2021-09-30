@@ -61,6 +61,7 @@ brew install mas
 
 brew tap caskroom/cask
 brew tap homebrew/cask-versions
+brew tap homebrew/cask-fonts
 
 mas install 1176895641 #Spark
 mas install 1438389787 #Pasta
@@ -84,16 +85,6 @@ brew install --cask zoom
 brew install --cask postman
 brew install --cask docker
 brew install --cask spectacle
-
-action "Installing Brew Cask fonts" # Not shared between users
-
-brew tap homebrew/cask-fonts
-
-brew install font-fira-code
-brew install font-anonymous-pro
-brew install font-lobster
-brew install font-quicksand
-brew install font-fira-code-nerd-font
 
 action "Brew cleanup" 
 
