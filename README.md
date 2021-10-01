@@ -1,5 +1,8 @@
 # Alex Dotfiles
 
+<img src="cover.png">
+
+
 <details open="open">
   <summary><h2 style="display: inline-block">Contents</h2></summary>
   <ul>
