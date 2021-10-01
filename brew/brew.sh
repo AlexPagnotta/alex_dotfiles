@@ -85,6 +85,7 @@ brew install --cask zoom
 brew install --cask postman
 brew install --cask docker
 brew install --cask spectacle
+brew install --cask grammarly
 
 action "Brew cleanup" 
 
