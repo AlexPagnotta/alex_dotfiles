@@ -75,6 +75,10 @@ brew install --cask grammarly
 brew install --cask figma
 brew install --cask blender
 
+# Work
+
+brew install --cask slack
+
 action "Installing packages from outside brew" 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 

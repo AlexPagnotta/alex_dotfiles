@@ -73,6 +73,7 @@ Enable "Show file extensions" and search on current folder when executing a rese
 - Calendar
 - Notion
 - Notes
+- Slack
 - Figma
 - Terminal
 - Sublime
