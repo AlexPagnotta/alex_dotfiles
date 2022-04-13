@@ -36,6 +36,11 @@ fi
 
 action "Installing Brew packages"
 
+# Personal
+
+brew install youtube-dl
+brew install ffmpeg
+
 # Terminal
 
 brew install starship
@@ -62,6 +67,9 @@ brew tap homebrew/cask-fonts
 mas install 1176895641 #Spark
 mas install 1438389787 #Pasta
 
+# Personal
+mas install 1352778147 #bitwarden
+
 brew install --cask google-chrome
 brew install --cask firefox
 brew install --cask spotify
@@ -74,6 +82,13 @@ brew install --cask spectacle
 brew install --cask grammarly
 brew install --cask figma
 brew install --cask blender
+
+# Personal
+brew install --cask whatsapp
+brew install --cask skype
+brew install --cask bitwarden
+brew install --cask raindropio
+
 
 action "Installing packages from outside brew" 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

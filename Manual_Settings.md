@@ -72,7 +72,9 @@ Enable "Show file extensions" and search on current folder when executing a rese
 - Spotify
 - Calendar
 - Notion
+- Raindrop
 - Notes
+- Whatsapp
 - Figma
 - Terminal
 - Sublime
