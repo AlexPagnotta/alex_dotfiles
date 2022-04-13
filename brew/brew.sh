@@ -82,6 +82,7 @@ brew install --cask spectacle
 brew install --cask grammarly
 brew install --cask figma
 brew install --cask blender
+brew install --cask google-drive
 
 # Personal
 brew install --cask whatsapp
