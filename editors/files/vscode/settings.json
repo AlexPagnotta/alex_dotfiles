@@ -3,20 +3,10 @@
   "editor.fontSize": 13,
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "terminal.explorerKind": "external",
-  "terminal.external.osxExec": "Hyper.app",
+  "terminal.external.osxExec": "iTerm.app",
   "workbench.colorTheme": "Dracula",
-  "workbench.iconTheme": "material-icon-theme",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  "workbench.iconTheme": "material-icon-theme"
 }
