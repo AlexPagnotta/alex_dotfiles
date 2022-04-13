@@ -10,6 +10,9 @@ title "BREW INSTALL SCRIPT"
 # Prevent sleep
 caffeinate &
 
+# Asks if an intel version of brew is needed, only for M1 macs
+read -r -p "Do you want to the install an additional intel version of brew (M1 Only) [y|N] " brewIntelResponse
+
 action "Installing Brew"
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -18,21 +21,24 @@ brew update
 
 brew upgrade 
 
-arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+if [[ $brewIntelResponse =~ (yes|y|Y) ]];then
+  
+    action "Installing Intel Brew"
 
-arch -x86_64 brew update 
+    arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-arch -x86_64 brew upgrade 
+    arch -x86_64 brew update 
+
+    arch -x86_64 brew upgrade 
+fi
+
 
 
 action "Installing Brew packages"
 
-# Personal
-
-brew install youtube-dl
-brew install ffmpeg
-
 # Terminal
+
+brew install starship
 
 brew install zsh-syntax-highlighting
 brew install zsh-autosuggestions
@@ -42,18 +48,8 @@ brew install zsh-completions
 
 brew install wget
 brew install git
-brew install rbenv 
 brew install volta 
 
-# Work 
-
-brew install postgresql
-brew install openfortivpn
-
-brew install grpc
-brew install mactex
-brew install imagemagick
-brew install pdftk-java 
 
 action "Installing Brew Cask packages"
 
@@ -65,27 +61,22 @@ brew tap homebrew/cask-fonts
 
 mas install 1176895641 #Spark
 mas install 1438389787 #Pasta
-mas install 1091189122 #Bear
-mas install 1481302432 #Instapaper
-mas install 1533805339 #Keepa
-mas install 1352778147 #bitwarden
-mas install 1435957248 #drafts
 
 brew install --cask google-chrome
+brew install --cask firefox
 brew install --cask spotify
-brew install --cask whatsapp
-brew install --cask skype
 brew install --cask iterm2
 brew install --cask sourcetree
 brew install --cask sublime-text
 brew install --cask visual-studio-code
-brew install --cask bitwarden
-brew install --cask gimp
-brew install --cask zoom
 brew install --cask postman
-brew install --cask docker
 brew install --cask spectacle
 brew install --cask grammarly
+brew install --cask figma
+brew install --cask blender
+
+action "Installing packages from outside brew" 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 action "Brew cleanup" 
 

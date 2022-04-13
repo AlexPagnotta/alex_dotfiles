@@ -57,7 +57,7 @@ git clone git@github.com:AlexPagnotta/alex_dotfiles.git
 - BREW:
   Installs all brew packages, cask apps and fonts, run the brew.sh script first, and then the profile-specific script according to the branch you are in, so brew_personal.sh or brew_work.sh.
 
-- DEV: This script will set up my dev environment, installing ruby, nodejs and other dev related extensions
+- DEV: This script will set up my dev environment.
 
 - Config: Executing this script will symlink dotfiles to your home directory, these include ssh config, zshrc, git config etc.
 
@@ -70,24 +70,6 @@ git clone git@github.com:AlexPagnotta/alex_dotfiles.git
 
 See the <a href="Manual_Settings.md">Manual_Settings.md</a> file for more info.
 
-### Brew permissions FIX
-
-Brew can have some problems when the same installation is used in more than one profile, specifically, you can experience some permission problems when installing packages.
-To fix this problem you have to:
-
-- Open System Preferences -> Users and Groups -> Click the + button
-- Create a new Group called "admins" or whatever you want, and add all your profiles to this group
-- Run this command, replacing "admins" with the group name you have chosen:
-
-```bash
-# Brew ARM
-sudo chgrp -R admins $(brew --prefix)
-sudo chmod -R g+w $(brew --prefix)
-
-# Brew Intel
-sudo chgrp -R admins $(intelbrew --prefix)
-sudo chmod -R g+w $(intelbrew --prefix)
-```
 
 ### SSH keys
 

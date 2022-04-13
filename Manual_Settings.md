@@ -14,7 +14,7 @@ Deselect:
   
 ### Desktop & Screensaver 
 
-Select yellow tint wallpaper and disable screensaver
+Select the wallpaper and disable screensaver
 
 ### Dock and menù bar 
 
@@ -48,9 +48,8 @@ Disable natural scrolling
 - Home
 - Dekstop
 - Documents
-- Programmazione
-- Applicazioni
-- Applications (Profile specific)
+- Developments
+- Applications
 - Download 
 
 ### Settings
@@ -62,6 +61,42 @@ Show Hard disks and external disks on desktop, new windows starts with home fold
 #### Advanced
 
 Enable "Show file extensions" and search on current folder when executing a research.
+
+## Dock Apps
+
+- Finder
+- Apps
+- Spark
+- Chrome
+- Safari
+- Spotify
+- Calendar
+- Notion
+- Notes
+- Figma
+- Terminal
+- Sublime
+- Vs Code
+- SourceTree
+- Settings
+- Download folder
+
+## Launchpad Apps
+
+- App Store
+- Safari
+- Chrome
+- Firefox
+- Apple
+- Productivity (Calendar, notes, notion, etc.)
+- Messages (Spark, Slack, etc.)
+- Utility (Pasta, Spectacle, Logi Options, etc.)
+- Development Tools (VsCode, iTerm, Sourcetree, etc.)
+- Media (Spotify, etc.)
+- iWork
+- Graphics tools (Figma, Blender, etc.)
+- Other
+- Settings
 
 
 

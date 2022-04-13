@@ -5,10 +5,6 @@
 
 export PATH=$HOME/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/local/sbin:$PATH
 
-# Ruby
-
-eval "$(rbenv init -)"
-
 # VoltaJS
 
 export VOLTA_HOME="$HOME/.volta"
@@ -16,7 +12,7 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 
 # Path to your oh-my-zsh installation.
 
-export ZSH="/Users/alexpagnotta/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # ZSH Plugins
 

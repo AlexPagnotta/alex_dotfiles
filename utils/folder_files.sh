@@ -11,7 +11,7 @@ declare -a symlinkFiles=(
 vsCodeTargetDir=$HOME/Library/Application\ Support/Code/User
 
 #Sublime directory where symlink config files
-sublimeTargetDir=$HOME/Library/Application\ Support/Sublime\ Text\ 3/
+sublimeTargetDir=$HOME/Library/Application\ Support/Sublime\ Text/
 
 #iTerm directory where symlink config files
 iTerm2TargetDir=$HOME/Library/Preferences

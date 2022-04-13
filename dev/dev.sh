@@ -20,18 +20,6 @@ done
 # Agree to the terms of the Xcode license
 #sudo xcodebuild -license accept
 
-action "Configuring Ruby"
-
-ruby_version=2.6.5
-
-rbenv install $ruby_version
-
-rbenv global $ruby_version
-
-gem install bundler
-
-rbenv rehash
-
 action "Configuring Volta Node Manager"
 
 volta install node@14
