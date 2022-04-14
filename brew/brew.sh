@@ -62,6 +62,9 @@ brew tap homebrew/cask-fonts
 mas install 1176895641 #Spark
 mas install 1438389787 #Pasta
 
+# Work
+mas install 506189836 #Harvest
+
 brew install --cask google-chrome
 brew install --cask firefox
 brew install --cask spotify
