@@ -50,6 +50,15 @@ brew install wget
 brew install git
 brew install volta 
 
+# Work Craft CMS, PHP, laravel valet etc.
+
+brew install php
+brew install composer
+brew install mysql
+
+brew services start php
+brew services start mysql
+
 
 action "Installing Brew Cask packages"
 

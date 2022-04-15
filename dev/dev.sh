@@ -26,9 +26,18 @@ volta install node@14
 
 volta install yarn
 
+volta install npm
+
 action "Installing global yarn packages"
 
 yarn global add eslint prettier
+
+# Work 
+action "Installing PHP and laravel valet"
+
+composer global require laravel/valet
+
+valet install
 
 success "Script completed"
 
