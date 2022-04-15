@@ -64,6 +64,7 @@ mas install 1438389787 #Pasta
 
 # Work
 mas install 506189836 #Harvest
+mas install 1333542190 #1 Password
 
 brew install --cask google-chrome
 brew install --cask firefox
