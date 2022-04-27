@@ -104,7 +104,7 @@ brew cleanup
 # turn off prevent sleep.
 killall caffeinate
 
-warning "App to install manually: \n   - Authy on Mac App Store \n   - Logi Options" 
+warning "App to install manually: \n   - Authy on Mac App Store \n   - Logi Options \n   - Tweek on Mac App Store" 
 
 success "Installation completed"
 
