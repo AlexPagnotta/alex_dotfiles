@@ -88,6 +88,7 @@ brew install --cask grammarly
 brew install --cask figma
 brew install --cask blender
 brew install --cask google-drive
+brew install --cask tableplus
 
 # Work
 
