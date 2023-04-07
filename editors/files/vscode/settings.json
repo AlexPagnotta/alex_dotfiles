@@ -3,6 +3,7 @@
   "editor.fontSize": 13,
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "terminal.explorerKind": "external",
   "terminal.external.osxExec": "iTerm.app",
@@ -12,9 +13,7 @@
     "other": "on",
     "comments": "off",
     "strings": "on"
-  },    
-  "editor.inlineSuggest.enabled": true,
-  "editor.formatOnSave": true,
+  },
   "tailwindcss.rootFontSize": 10,
   "[php]": {
     "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
