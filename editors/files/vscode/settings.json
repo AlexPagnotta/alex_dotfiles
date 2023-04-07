@@ -8,5 +8,12 @@
   "terminal.explorerKind": "external",
   "terminal.external.osxExec": "iTerm.app",
   "workbench.colorTheme": "Dracula",
-  "workbench.iconTheme": "material-icon-theme"
+  "workbench.iconTheme": "material-icon-theme",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false
+  }
 }
