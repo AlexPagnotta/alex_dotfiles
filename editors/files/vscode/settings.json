@@ -12,7 +12,21 @@
     "other": "on",
     "comments": "off",
     "strings": "on"
-  },
+  },    
+  "editor.inlineSuggest.enabled": true,
+  "editor.formatOnSave": true,
   "tailwindcss.rootFontSize": 10,
-  "editor.formatOnSave": true
+  "[php]": {
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false
+  }
 }
