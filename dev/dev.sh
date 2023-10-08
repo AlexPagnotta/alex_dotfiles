@@ -22,13 +22,11 @@ done
 
 action "Configuring Volta Node Manager"
 
-volta install node@14
+volta install node@16
 
-volta install yarn
+action "Installing global npm packages"
 
-action "Installing global yarn packages"
-
-yarn global add eslint prettier
+npm install -g eslint prettier
 
 success "Script completed"
 
