@@ -65,7 +65,6 @@ brew tap homebrew/cask-versions
 brew tap homebrew/cask-fonts
 
 mas install 1176895641 #Spark
-mas install 1438389787 #Pasta
 
 # Personal
 mas install 1352778147 #Bitwarden
@@ -82,7 +81,6 @@ brew install --cask sourcetree
 brew install --cask sublime-text
 brew install --cask visual-studio-code
 brew install --cask postman
-brew install --cask spectacle
 brew install --cask figma
 brew install --cask blender
 brew install --cask raycast
