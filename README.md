@@ -2,7 +2,6 @@
 
 <img src="cover.png">
 
-
 <details open="open">
   <summary><h2 style="display: inline-block">Contents</h2></summary>
   <ul>
@@ -24,17 +23,20 @@
   </ul>
 </details>
 
-
 ## About
 
 This repository contains all my M1 Macbook dotfiles, complete with scripts for an easy restore and instructions for manual steps.
-
 
 ### Profiles
 
 As you can see there are three branches on this repository, each branch matches a profile on the mac, at the moment there is a personal branch and a work one, aside from the master branch that includes configs in common between the two.
 The main differences are in the apps installed with brew and some changes in the config files.
 
+## Pre reset
+
+Make sure that all the app configs that require a manual export are updated:
+
+- Raycast
 
 ## Getting Started
 
@@ -63,13 +65,11 @@ git clone git@github.com:AlexPagnotta/alex_dotfiles.git
 
 - Editor: Configures VsCode complete with extensions, Sublime Text 3 and the iTerm2 terminal.
 
-
 ## Post install
 
 ### Mac Os Settings
 
 See the <a href="Manual_Settings.md">Manual_Settings.md</a> file for more info.
-
 
 ### SSH keys
 
@@ -87,7 +87,6 @@ ssh-keygen -p -f ~/.ssh/private_key_file
 ```
 
 Once you have done it, you can add the key to the agent, after that, if you want, you can remove the password with the same command you used to set it.
-
 
 ### TODO
 
