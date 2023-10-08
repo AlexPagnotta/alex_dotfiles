@@ -6,17 +6,17 @@ Here you can find the manual steps needed to complete the mac configuration:
 
 ### ID Apple
 
-Deselect: 
-- Photo
+Deselect:
+
 - Mail
 - Keychain
 - Stocks
-  
-### Desktop & Screensaver 
+
+### Desktop & Screensaver
 
 Select the wallpaper and disable screensaver
 
-### Dock and menù bar 
+### Dock and menù bar
 
 - Deselect "Show recent applications"
 - Remove siri from menù bar
@@ -44,19 +44,21 @@ Disable natural scrolling
 
 ### Sidebar Apps
 
-- Drive or Dropbox on work profile
+- Dropbox (work profile)
 - Home
-- Dekstop
+- Desktop
 - Documents
-- Developments
+- Development
 - Applications
-- Download 
+- Applications (shared folder)
+- Movies (peronal)
+- Download
 
 ### Settings
 
 #### Generals
 
-Show Hard disks and external disks on desktop, new windows starts with home folder and deselect tabs options.
+Show external disks on desktop, new windows starts with home folder and deselect tabs options.
 
 #### Advanced
 
@@ -67,38 +69,34 @@ Enable "Show file extensions" and search on current folder when executing a rese
 - Finder
 - Apps
 - Spark
-- Chrome
-- Safari
+- Arc
+- Safari (Work profile)
 - Spotify
 - Calendar
-- Notion
-- Raindrop
+- Craft Doc
+- Reeder
+- Fabric
 - Notes
+- Reminder
 - Whatsapp
-- Figma
-- Terminal
 - Sublime
 - Vs Code
 - SourceTree
+- Terminal
+- Figma
 - Settings
 - Download folder
 
 ## Launchpad Apps
 
-- App Store
-- Safari
-- Chrome
-- Firefox
+- Browsers (Arc, Safari, Chrome, Firefox, etc.)
 - Apple
 - Productivity (Calendar, notes, notion, etc.)
 - Messages (Spark, Slack, etc.)
-- Utility (Pasta, Spectacle, Logi Options, etc.)
+- Utility (Raycast, Logi Options, Calibre, Transimission etc.)
 - Development Tools (VsCode, iTerm, Sourcetree, etc.)
 - Media (Spotify, etc.)
 - iWork
-- Graphics tools (Figma, Blender, etc.)
+- Graphics tools (Figma, Blender, Rive, etc.)
 - Other
 - Settings
-
-
-

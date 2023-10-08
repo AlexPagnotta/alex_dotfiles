@@ -70,8 +70,10 @@ mas install 1438389787 #Pasta
 # Personal
 mas install 1352778147 #bitwarden
 
+brew install --cask arc
 brew install --cask google-chrome
 brew install --cask firefox
+brew install --cask logi-options-plus
 brew install --cask spotify
 brew install --cask iterm2
 brew install --cask sourcetree
@@ -79,10 +81,12 @@ brew install --cask sublime-text
 brew install --cask visual-studio-code
 brew install --cask postman
 brew install --cask spectacle
-brew install --cask grammarly
 brew install --cask figma
 brew install --cask blender
-brew install --cask google-drive
+brew install --cask raycast
+brew install --cask rive
+brew install --cask gimp
+
 
 # Personal
 brew install --cask whatsapp
@@ -104,7 +108,7 @@ brew cleanup
 # turn off prevent sleep.
 killall caffeinate
 
-warning "App to install manually: \n   - Authy on Mac App Store \n   - Logi Options" 
+warning "App to install manually: \n   - Authy on Mac App Store \n - Fabric (fabric.so)" 
 
 success "Installation completed"
 
