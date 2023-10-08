@@ -15,4 +15,3 @@ sublimeTargetDir=$HOME/Library/Application\ Support/Sublime\ Text/
 
 #iTerm directory where symlink config files
 iTerm2TargetDir=$HOME/Library/Preferences
-

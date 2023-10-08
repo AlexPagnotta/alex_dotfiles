@@ -22,15 +22,11 @@ done
 
 action "Configuring Volta Node Manager"
 
-volta install node@14
+volta install node@16
 
-volta install yarn
+action "Installing global npm packages"
 
-volta install npm
-
-action "Installing global yarn packages"
-
-yarn global add eslint prettier
+npm install -g eslint prettier
 
 # Work 
 action "Installing PHP and laravel valet"
