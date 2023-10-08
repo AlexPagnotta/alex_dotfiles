@@ -68,7 +68,9 @@ mas install 1176895641 #Spark
 mas install 1438389787 #Pasta
 
 # Personal
-mas install 1352778147 #bitwarden
+mas install 1352778147 #Bitwarden
+mas install 1487937127 #Craft
+mas install 1529448980 #Reeder
 
 brew install --cask arc
 brew install --cask google-chrome
@@ -90,9 +92,6 @@ brew install --cask gimp
 
 # Personal
 brew install --cask whatsapp
-brew install --cask skype
-brew install --cask bitwarden
-brew install --cask raindropio
 brew install --cask calibre
 brew install --cask transmission
 brew install --cask plex
