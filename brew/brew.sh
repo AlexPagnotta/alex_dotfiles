@@ -93,6 +93,7 @@ brew install --cask gimp
 # Work
 brew install --cask slack
 brew install --cask tableplus
+brew install --cask notion
 
 
 action "Installing packages from outside brew" 
