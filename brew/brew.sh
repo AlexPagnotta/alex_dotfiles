@@ -36,14 +36,6 @@ fi
 
 action "Installing Brew packages"
 
-# Terminal
-
-brew install starship
-
-brew install zsh-syntax-highlighting
-brew install zsh-autosuggestions
-brew install zsh-completions
-
 # Dev
 
 brew install wget
@@ -79,7 +71,7 @@ brew install --cask google-chrome
 brew install --cask firefox
 brew install --cask logi-options-plus
 brew install --cask spotify
-brew install --cask iterm2
+brew install --cask warp
 brew install --cask sourcetree
 brew install --cask sublime-text
 brew install --cask visual-studio-code

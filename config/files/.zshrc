@@ -16,21 +16,9 @@ export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
-
-# Path to your oh-my-zsh installation.
+# Init Oh My Zsh
 
 export ZSH="$HOME/.oh-my-zsh"
-
-# ZSH Plugins
-
-plugins=(git)
-
-source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-eval "$(starship init zsh)"
-
-# Fix Permissions
 
 ZSH_DISABLE_COMPFIX=true
 
