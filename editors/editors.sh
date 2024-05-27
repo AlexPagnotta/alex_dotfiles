@@ -8,10 +8,9 @@ filesDir="$(pwd)/files"
 
 title "EDITORS SCRIPT"
 
-action "Configuring iTerm2"
+action "Configuring Warp Terminal"
 
-defaults write com.googlecode.iterm2 PrefsCustomFolder "$filesDir/iterm2"
-defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true
+defaults import dev.warp.Warp-Stable "$filesDir/warp-terminal/settings.plist"
 
 action "Configuring VsCode"
 
