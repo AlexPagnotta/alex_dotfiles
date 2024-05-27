@@ -15,5 +15,6 @@
     "plaintext": true,
     "markdown": true,
     "scminput": false
-  }
+  },
+  "github.copilot.editor.enableAutoCompletions": true
 }
