@@ -6,7 +6,7 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "terminal.explorerKind": "external",
-  "terminal.external.osxExec": "iTerm.app",
+  "terminal.external.osxExec": "warp.app",
   "workbench.colorTheme": "Dracula",
   "workbench.iconTheme": "material-icon-theme",
   "github.copilot.enable": {

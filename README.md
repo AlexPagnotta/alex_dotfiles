@@ -32,11 +32,13 @@ This repository contains all my M1 Macbook dotfiles, complete with scripts for a
 As you can see there are three branches on this repository, each branch matches a profile on the mac, at the moment there is a personal branch and a work one, aside from the master branch that includes configs in common between the two.
 The main differences are in the apps installed with brew and some changes in the config files.
 
-## Pre reset
+## Pre Reset
 
 Make sure that all the app configs that require a manual export are updated:
 
-- Raycast
+- Raycast (Save .rayconfig file in the config folders, and re-import from app)
+
+- Warp Terminal (Run this command on the root of the project to update the settings file `defaults export dev.warp.Warp-Stable editors/files/warp-terminal/settings.plist`)
 
 ## Getting Started
 
@@ -63,7 +65,7 @@ git clone git@github.com:AlexPagnotta/alex_dotfiles.git
 
 - Config: Executing this script will symlink dotfiles to your home directory, these include ssh config, zshrc, git config etc.
 
-- Editor: Configures VsCode complete with extensions, Sublime Text 3 and the iTerm2 terminal.
+- Editor: Configures VsCode complete with extensions, Sublime Text 3 and the Warp terminal.
 
 ## Post install
 
