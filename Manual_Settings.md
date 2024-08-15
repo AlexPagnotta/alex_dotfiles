@@ -94,7 +94,7 @@ Enable "Show file extensions" and search on current folder when executing a rese
 - Productivity (Calendar, notes, notion, etc.)
 - Messages (Spark, Slack, etc.)
 - Utility (Raycast, Logi Options, Calibre, Transimission etc.)
-- Development Tools (VsCode, iTerm, Sourcetree, etc.)
+- Development Tools (VsCode, Warp, Sourcetree, etc.)
 - Media (Spotify, etc.)
 - iWork
 - Graphics tools (Figma, Blender, Rive, etc.)
