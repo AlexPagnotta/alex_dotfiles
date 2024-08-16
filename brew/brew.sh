@@ -66,10 +66,10 @@ brew install --cask vlc
 
 # Personal
 brew install --cask whatsapp
-brew install --cask calibre
 brew install --cask transmission
 brew install --cask plex
 brew install --cask vlc
+brew install --cask notion
 
 action "Installing packages from outside brew" 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
