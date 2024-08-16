@@ -22,7 +22,7 @@ done
 
 action "Configuring Volta Node Manager"
 
-volta install node@16
+volta install node
 
 action "Installing global npm packages"
 

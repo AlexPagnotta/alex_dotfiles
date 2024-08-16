@@ -20,11 +20,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Aliases
 
-alias intelbrew='arch -x86_64 /usr/local/Homebrew/bin/brew' #Intel homebrew
-
 alias ls='ls -G'
-
-alias killlogi='killall LogiMgrDaemon'
 
 # SSH
 
