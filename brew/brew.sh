@@ -10,9 +10,6 @@ title "BREW INSTALL SCRIPT"
 # Prevent sleep
 caffeinate &
 
-# Asks if an intel version of brew is needed, only for M1 macs
-read -r -p "Do you want to the install an additional intel version of brew (M1 Only) [y|N] " brewIntelResponse
-
 action "Installing Brew"
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -20,19 +17,6 @@ action "Installing Brew"
 brew update 
 
 brew upgrade 
-
-if [[ $brewIntelResponse =~ (yes|y|Y) ]];then
-  
-    action "Installing Intel Brew"
-
-    arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-
-    arch -x86_64 brew update 
-
-    arch -x86_64 brew upgrade 
-fi
-
-
 
 action "Installing Brew packages"
 
@@ -76,8 +60,8 @@ brew install --cask postman
 brew install --cask figma
 brew install --cask blender
 brew install --cask raycast
-brew install --cask rive
-brew install --cask gimp
+brew install --cask the-unarchiver
+brew install --cask vlc
 
 
 # Personal
@@ -96,8 +80,6 @@ brew cleanup
 
 # turn off prevent sleep.
 killall caffeinate
-
-warning "App to install manually: \n   - Authy on Mac App Store \n - Fabric (fabric.so)" 
 
 success "Installation completed"
 
