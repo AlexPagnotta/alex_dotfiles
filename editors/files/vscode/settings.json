@@ -9,18 +9,7 @@
   "terminal.external.osxExec": "warp.app",
   "workbench.colorTheme": "Dracula",
   "workbench.iconTheme": "material-icon-theme",
-  "editor.quickSuggestions": {
-    "other": "on",
-    "comments": "off",
-    "strings": "on"
-  },
   "tailwindcss.rootFontSize": 10,
-  "[php]": {
-    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
-  },
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
-  },
   "github.copilot.enable": {
     "*": true,
     "yaml": true,

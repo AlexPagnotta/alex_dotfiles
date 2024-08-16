@@ -28,12 +28,5 @@ action "Installing global npm packages"
 
 npm install -g eslint prettier
 
-# Work 
-action "Installing PHP and laravel valet"
-
-composer global require laravel/valet
-
-valet install
-
 success "Script completed"
 

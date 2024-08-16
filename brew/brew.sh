@@ -26,15 +26,9 @@ brew install wget
 brew install git
 brew install volta 
 
-# Work Craft CMS, PHP, laravel valet etc.
+# Work
 
-brew install php
-brew install composer
-brew install mysql
-
-brew services start php
-brew services start mysql
-
+brew install lando-cli
 
 action "Installing Brew Cask packages"
 
@@ -47,7 +41,6 @@ brew tap homebrew/cask-fonts
 mas install 1176895641 #Spark
 
 # Work
-mas install 506189836 #Harvest
 mas install 1333542190 #1 Password
 
 brew install --cask arc

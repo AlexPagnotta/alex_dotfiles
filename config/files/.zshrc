@@ -3,7 +3,7 @@
 
 #PATH and Brew
 
-export PATH=$HOME/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/local/sbin:~/.composer/vendor/bin:$PATH
+export PATH=$HOME/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/local/sbin:$PATH
 
 # VoltaJS
 
