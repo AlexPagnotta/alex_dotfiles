@@ -9,6 +9,7 @@
   "terminal.external.osxExec": "warp.app",
   "workbench.colorTheme": "Dracula",
   "workbench.iconTheme": "material-icon-theme",
+  "tailwindcss.rootFontSize": 10,
   "github.copilot.enable": {
     "*": true,
     "yaml": true,
