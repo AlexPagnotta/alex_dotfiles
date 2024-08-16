@@ -20,7 +20,7 @@ Select the wallpaper and disable screensaver
 
 - Deselect "Show recent applications"
 - Remove siri from menù bar
-- Show rapid switch for users and keyboards
+- Show rapid switch for keyboards
 - 24H clock
 - Add bluetooth and audio to status bar
 
@@ -44,14 +44,14 @@ Disable natural scrolling
 
 ### Sidebar Apps
 
-- Dropbox (work profile)
 - Home
 - Desktop
 - Documents
-- Development
 - Applications
-- Applications (shared folder)
-- Movies (peronal)
+- Development
+- Projects (Work only -> Documents/Projects)
+- Movies (Personal only)
+- Pictures (Personal only)
 - Download
 
 ### Settings
@@ -70,19 +70,15 @@ Enable "Show file extensions" and search on current folder when executing a rese
 - Apps
 - Spark
 - Arc
-- Safari (Work profile)
+- 1Password/Bitwardem
 - Spotify
-- Calendar
-- Craft Doc
-- Reeder
-- Fabric
-- Notes
 - Reminder
-- Whatsapp
+- Notes
+- Slack/Whatsapp
 - Sublime
 - Vs Code
 - SourceTree
-- Terminal
+- Warp Terminal
 - Figma
 - Settings
 - Download folder
@@ -91,12 +87,11 @@ Enable "Show file extensions" and search on current folder when executing a rese
 
 - Browsers (Arc, Safari, Chrome, Firefox, etc.)
 - Apple
-- Productivity (Calendar, notes, notion, etc.)
+- Productivity (Calendar, notes, notion, iWork, etc.)
 - Messages (Spark, Slack, etc.)
 - Utility (Raycast, Logi Options, Calibre, Transimission etc.)
 - Development Tools (VsCode, Warp, Sourcetree, etc.)
 - Media (Spotify, etc.)
-- iWork
 - Graphics tools (Figma, Blender, Rive, etc.)
 - Other
 - Settings

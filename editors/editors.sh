@@ -18,14 +18,19 @@ ln -s "$filesDir/vscode/settings.json" "$vsCodeTargetDir/settings.json"
 
 action "Installing VsCode extensions"
 
-code --install-extension actboy168.tasks
-code --install-extension CoenraadS.bracket-pair-colorizer-2
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension dracula-theme.theme-dracula
 code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension esbenp.prettier-vscode
 code --install-extension PKief.material-icon-theme
 code --install-extension yzhang.markdown-all-in-one
+code --install-extension GitHub.copilot
+code --install-extension GitHub.copilot-chat
+code --install-extension eamodio.gitlens
+code --install-extension GraphQL.vscode-graphql-execution
+code --install-extension GraphQL.vscode-graphql
+code --install-extension GraphQL.vscode-graphql-syntax
+code --install-extension bradlc.vscode-tailwindcss
 
 action "Configuring Sublime"
 
