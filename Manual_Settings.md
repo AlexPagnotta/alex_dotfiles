@@ -16,8 +16,10 @@ Deselect:
 
 Select the wallpaper and disable screensaver
 
-### Dock and menù bar
+### Desktop and dock
 
+- Select "Hide dock automatically"
+- Deselect "Show animation on app opening"
 - Deselect "Show recent applications"
 - Remove siri from menù bar
 - Show rapid switch for keyboards
@@ -27,6 +29,8 @@ Select the wallpaper and disable screensaver
 ### Mission control
 
 Deselect "Reorganize spaces automatically"
+Select "Group windows by application"
+Deselect "Screens have separate space"
 
 ### Keyboard
 
