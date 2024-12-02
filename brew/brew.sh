@@ -58,11 +58,11 @@ brew install --cask blender
 brew install --cask raycast
 brew install --cask the-unarchiver
 brew install --cask vlc
+brew install --cask nikitabobko/tap/aerospace
 
 # Work
 brew install --cask slack
 brew install --cask tableplus
-
 
 action "Installing packages from outside brew" 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
