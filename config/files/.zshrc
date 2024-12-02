@@ -5,6 +5,10 @@
 
 export PATH=$HOME/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/local/sbin:$PATH
 
+# Lando
+
+export PATH="/Users/alexpagnotta/.lando/bin${PATH+:$PATH}"; #landopath
+
 # VoltaJS
 
 export VOLTA_HOME="$HOME/.volta"
@@ -27,5 +31,6 @@ alias ls='ls -G'
 ssh-add -A
 
 clear
+
 
 
