@@ -44,8 +44,6 @@ mas install 1176895641 #Spark
 
 # Personal
 mas install 1352778147 #Bitwarden
-mas install 1487937127 #Craft
-mas install 1529448980 #Reeder
 
 brew install --cask arc
 brew install --cask google-chrome
