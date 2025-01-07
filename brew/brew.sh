@@ -50,8 +50,9 @@ brew install --cask postman
 brew install --cask figma
 brew install --cask blender
 brew install --cask raycast
-brew install --cask the-unarchiver
 brew install --cask vlc
+brew install --cask notion
+brew install --cask notion-calendar
 
 
 action "Installing packages from outside brew" 
