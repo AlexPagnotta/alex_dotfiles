@@ -141,3 +141,11 @@ Disable "Share across devices", as I want to configure it manually for each one.
 - Games (Nvidia geForce Now, PS Remote Play, etc.)
 - Other
 - Settings
+
+## Additional scripts
+
+- **Reduce dock hover delay**
+
+  ```bash
+  defaults write com.apple.Dock autohide-delay -float 0 && killall Dock
+  ```
