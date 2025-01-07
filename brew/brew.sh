@@ -62,7 +62,6 @@ brew install --cask blender
 brew install --cask raycast
 brew install --cask the-unarchiver
 brew install --cask vlc
-brew install --cask nikitabobko/tap/aerospace
 
 # Personal
 brew install --cask whatsapp
