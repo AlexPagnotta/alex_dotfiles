@@ -7,8 +7,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "terminal.explorerKind": "external",
   "terminal.external.osxExec": "warp.app",
-  "workbench.colorTheme": "Dracula",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Houston",
   "tailwindcss.rootFontSize": 10,
   "github.copilot.enable": {
     "*": true,
@@ -17,5 +16,7 @@
     "markdown": true,
     "scminput": false
   },
-  "github.copilot.editor.enableAutoCompletions": true
+  "github.copilot.editor.enableAutoCompletions": true,
+  "cursor.cpp.disabledLanguages": ["scminput"],
+  "workbench.iconTheme": "vs-nomo-dark"
 }

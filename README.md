@@ -84,6 +84,14 @@ sh editors/editors.sh
 
 See the <a href="Manual_Settings.md">Manual_Settings.md</a> file for more info.
 
+### Additional scripts
+
+- **Reduce dock hover delay**
+
+  ```bash
+  defaults write com.apple.Dock autohide-delay -float 0 && killall Dock
+  ```
+
 ### SSH keys
 
 Zsh shell is configured to run `ssh-add -A` at every start, this way ssh keys are always available,
@@ -100,3 +108,11 @@ ssh-keygen -p -f ~/.ssh/private_key_file
 ```
 
 Once you have done it, you can add the key to the agent, after that, if you want, you can remove the password with the same command you used to set it.
+
+### Raycast
+
+- Import settings from the .rayconfig file in the config folder of the project.
+
+### Cursor
+
+VsCode settings are set automatically from the script, but you need to import the cursor rules and internal settings manually, see the <a href="Cursor.md">Cursor.md</a> file for more info.
