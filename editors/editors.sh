@@ -24,19 +24,20 @@ action "Installing VsCode/Cursor extensions"
 
 # Replace cursor with code if want to use vscode
 
-cursor --install-extension dbaeumer.vscode-eslint
-cursor --install-extension dracula-theme.theme-dracula
 cursor --install-extension dsznajder.es7-react-js-snippets
+cursor --install-extension dbaeumer.vscode-eslint
 cursor --install-extension esbenp.prettier-vscode
 cursor --install-extension PKief.material-icon-theme
 cursor --install-extension yzhang.markdown-all-in-one
-cursor --install-extension GitHub.copilot
-cursor --install-extension GitHub.copilot-chat
 cursor --install-extension eamodio.gitlens
 cursor --install-extension GraphQL.vscode-graphql-execution
 cursor --install-extension GraphQL.vscode-graphql
 cursor --install-extension GraphQL.vscode-graphql-syntax
 cursor --install-extension bradlc.vscode-tailwindcss
+cursor --install-extension enkia.tokyo-night
+cursor --install-extension vitest.explorer
+cursor --install-extension ms-playwright.playwright
+cursor --install-extension wayou.vscode-todo-highlight
 
 action "Configuring Sublime"
 

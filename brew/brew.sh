@@ -33,7 +33,6 @@ brew install mas
 
 brew tap caskroom/cask
 brew tap homebrew/cask-versions
-brew tap homebrew/cask-fonts
 
 mas install 1176895641 #Spark
 
@@ -53,6 +52,7 @@ brew install --cask raycast
 brew install --cask vlc
 brew install --cask notion
 brew install --cask notion-calendar
+brew install --cask font-fira-code
 
 
 action "Installing packages from outside brew" 
