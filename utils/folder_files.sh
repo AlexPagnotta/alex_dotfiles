@@ -9,5 +9,8 @@ declare -a symlinkFiles=(
 # Vs code directory where symlink config files
 vsCodeTargetDir=$HOME/Library/Application\ Support/Code/User
 
+# Cursor directory where symlink config files
+cursorTargetDir=$HOME/Library/Application\ Support/Cursor/User
+
 # Sublime directory where symlink config files
 sublimeTargetDir=$HOME/Library/Application\ Support/Sublime\ Text/

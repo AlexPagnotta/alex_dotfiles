@@ -12,25 +12,31 @@ action "Configuring Warp Terminal"
 
 defaults import dev.warp.Warp-Stable "$filesDir/warp-terminal/settings.plist"
 
-action "Configuring VsCode"
+# action "Configuring VsCode"
 
-ln -s "$filesDir/vscode/settings.json" "$vsCodeTargetDir/settings.json"
+# ln -s "$filesDir/vscode/settings.json" "$vsCodeTargetDir/settings.json"
 
-action "Installing VsCode extensions"
+action "Configuring Cursor"
 
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension dracula-theme.theme-dracula
-code --install-extension dsznajder.es7-react-js-snippets
-code --install-extension esbenp.prettier-vscode
-code --install-extension PKief.material-icon-theme
-code --install-extension yzhang.markdown-all-in-one
-code --install-extension GitHub.copilot
-code --install-extension GitHub.copilot-chat
-code --install-extension eamodio.gitlens
-code --install-extension GraphQL.vscode-graphql-execution
-code --install-extension GraphQL.vscode-graphql
-code --install-extension GraphQL.vscode-graphql-syntax
-code --install-extension bradlc.vscode-tailwindcss
+ln -s "$filesDir/cursor/settings.json" "$cursorTargetDir/settings.json"
+
+action "Installing VsCode/Cursor extensions"
+
+# Replace cursor with code if want to use vscode
+
+cursor --install-extension dbaeumer.vscode-eslint
+cursor --install-extension dracula-theme.theme-dracula
+cursor --install-extension dsznajder.es7-react-js-snippets
+cursor --install-extension esbenp.prettier-vscode
+cursor --install-extension PKief.material-icon-theme
+cursor --install-extension yzhang.markdown-all-in-one
+cursor --install-extension GitHub.copilot
+cursor --install-extension GitHub.copilot-chat
+cursor --install-extension eamodio.gitlens
+cursor --install-extension GraphQL.vscode-graphql-execution
+cursor --install-extension GraphQL.vscode-graphql
+cursor --install-extension GraphQL.vscode-graphql-syntax
+cursor --install-extension bradlc.vscode-tailwindcss
 
 action "Configuring Sublime"
 
@@ -43,5 +49,7 @@ ln -s "$filesDir/sublime/Package Control.user-ca-bundle" "$sublimeTargetDir/Pack
 
 # Copy packages
 cp "$filesDir/sublime/packages/Dracula Color Scheme.sublime-package" "$sublimeTargetDir/Installed Packages/Dracula Color Scheme.sublime-package"
+
+warning "Config to import/setup manually: \n   - Cursor (Rules & internal settings) \n" 
 
 success "Script completed"
