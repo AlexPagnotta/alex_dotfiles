@@ -135,7 +135,7 @@ Disable "Share across devices", as I want to configure it manually for each one.
 - Productivity (Notion Calendar, Notion, Bitwarden, iWork, etc.)
 - Messages (Spark, Slack, Whatsapp, etc.)
 - Utility (Raycast, Logi Options, Calibre, Transimission etc.)
-- Development Tools (VsCode, Warp, Sourcetree, etc.)
+- Development Tools (Cursor Warp, Sourcetree, etc.)
 - Media (Spotify, etc.)
 - Graphics tools (Figma, Blender, Rive, etc.)
 - Games (Nvidia geForce Now, PS Remote Play, etc.)

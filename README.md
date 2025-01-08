@@ -65,7 +65,7 @@ Executing this script will symlink dotfiles to your home directory, these includ
 
 ### Editor
 
-Configures VsCode complete with extensions, Sublime Text 3 and the Warp terminal.
+Configures Cursor complete with extensions, and the Warp terminal.
 
 ## How to restore the dotfiles
 
@@ -115,4 +115,4 @@ Once you have done it, you can add the key to the agent, after that, if you want
 
 ### Cursor
 
-VsCode settings are set automatically from the script, but you need to import the cursor rules and internal settings manually, see the <a href="Cursor.md">Cursor.md</a> file for more info.
+Generic VsCode settings are set automatically from the script, but you need to import the cursor rules and internal settings manually, see the <a href="Cursor.md">Cursor.md</a> file for more info.
