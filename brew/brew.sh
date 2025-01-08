@@ -43,7 +43,6 @@ brew install --cask logi-options-plus
 brew install --cask spotify
 brew install --cask warp
 brew install --cask sourcetree
-brew install --cask sublime-text
 brew install --cask visual-studio-code
 brew install --cask postman
 brew install --cask figma

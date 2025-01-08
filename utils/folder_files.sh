@@ -13,4 +13,4 @@ vsCodeTargetDir=$HOME/Library/Application\ Support/Code/User
 cursorTargetDir=$HOME/Library/Application\ Support/Cursor/User
 
 # Sublime directory where symlink config files
-sublimeTargetDir=$HOME/Library/Application\ Support/Sublime\ Text/
+# sublimeTargetDir=$HOME/Library/Application\ Support/Sublime\ Text/
