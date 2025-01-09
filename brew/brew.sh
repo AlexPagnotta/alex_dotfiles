@@ -36,7 +36,6 @@ brew install mas
 
 brew tap caskroom/cask
 brew tap homebrew/cask-versions
-brew tap homebrew/cask-fonts
 
 mas install 1176895641 #Spark
 
@@ -50,7 +49,6 @@ brew install --cask logi-options-plus
 brew install --cask spotify
 brew install --cask warp
 brew install --cask sourcetree
-brew install --cask sublime-text
 brew install --cask visual-studio-code
 brew install --cask postman
 brew install --cask figma
@@ -59,6 +57,7 @@ brew install --cask raycast
 brew install --cask vlc
 brew install --cask notion
 brew install --cask notion-calendar
+brew install --cask font-fira-code
 
 # Work
 brew install --cask slack

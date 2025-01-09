@@ -24,31 +24,34 @@ action "Installing VsCode/Cursor extensions"
 
 # Replace cursor with code if want to use vscode
 
-cursor --install-extension dbaeumer.vscode-eslint
-cursor --install-extension dracula-theme.theme-dracula
 cursor --install-extension dsznajder.es7-react-js-snippets
+cursor --install-extension dbaeumer.vscode-eslint
 cursor --install-extension esbenp.prettier-vscode
 cursor --install-extension PKief.material-icon-theme
 cursor --install-extension yzhang.markdown-all-in-one
-cursor --install-extension GitHub.copilot
-cursor --install-extension GitHub.copilot-chat
 cursor --install-extension eamodio.gitlens
 cursor --install-extension GraphQL.vscode-graphql-execution
 cursor --install-extension GraphQL.vscode-graphql
 cursor --install-extension GraphQL.vscode-graphql-syntax
 cursor --install-extension bradlc.vscode-tailwindcss
+cursor --install-extension enkia.tokyo-night
+cursor --install-extension vitest.explorer
+cursor --install-extension ms-playwright.playwright
+cursor --install-extension wayou.vscode-todo-highlight
 
-action "Configuring Sublime"
+# Sublime is not used anymore
 
-wget "https://packagecontrol.io/Package%20Control.sublime-package" -O "$sublimeTargetDir/Installed Packages/Package Control.sublime-package" "--no-check-certificate";
+# action "Configuring Sublime"
 
-# Symlink settings files
-ln -s "$filesDir/sublime/Package Control.sublime-settings" "$sublimeTargetDir/Packages/User/Package Control.sublime-settings"
-ln -s "$filesDir/sublime/Preferences.sublime-settings" "$sublimeTargetDir/Packages/User/Preferences.sublime-settings"
-ln -s "$filesDir/sublime/Package Control.user-ca-bundle" "$sublimeTargetDir/Packages/User/Package Control.user-ca-bundle"
+# wget "https://packagecontrol.io/Package%20Control.sublime-package" -O "$sublimeTargetDir/Installed Packages/Package Control.sublime-package" "--no-check-certificate";
 
-# Copy packages
-cp "$filesDir/sublime/packages/Dracula Color Scheme.sublime-package" "$sublimeTargetDir/Installed Packages/Dracula Color Scheme.sublime-package"
+# # Symlink settings files
+# ln -s "$filesDir/sublime/Package Control.sublime-settings" "$sublimeTargetDir/Packages/User/Package Control.sublime-settings"
+# ln -s "$filesDir/sublime/Preferences.sublime-settings" "$sublimeTargetDir/Packages/User/Preferences.sublime-settings"
+# ln -s "$filesDir/sublime/Package Control.user-ca-bundle" "$sublimeTargetDir/Packages/User/Package Control.user-ca-bundle"
+
+# # Copy packages
+# cp "$filesDir/sublime/packages/Dracula Color Scheme.sublime-package" "$sublimeTargetDir/Installed Packages/Dracula Color Scheme.sublime-package"
 
 warning "Config to import/setup manually: \n   - Cursor (Rules & internal settings) \n" 
 

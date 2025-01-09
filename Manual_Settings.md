@@ -120,7 +120,6 @@ Disable "Share across devices", as I want to configure it manually for each one.
 - 1Password/Bitwardem
 - Spotify
 - Slack/Whatsapp
-- Sublime
 - Cursor
 - Warp Terminal
 - SourceTree
