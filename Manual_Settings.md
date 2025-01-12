@@ -73,6 +73,7 @@ Disable "Share across devices", as I want to configure it manually for each one.
 1. Select Edit in "Text Input" -> "Input Sources"
 2. Add "U.S. International - PC"
 3. Enable "Show input menu in menu bar"
+4. Disable hyper key shortcut for "Convert text to simplified Chinese" on "Keyboard shortcuts" menu, under "Services" tab.
 
 ### Mouse
 

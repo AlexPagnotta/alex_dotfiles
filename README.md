@@ -116,3 +116,12 @@ Once you have done it, you can add the key to the agent, after that, if you want
 ### Cursor
 
 Generic VsCode settings are set automatically from the script, but you need to import the cursor rules and internal settings manually, see the <a href="Cursor.md">Cursor.md</a> file for more info.
+
+### Hyperkey
+
+Hyperkey is installed automatically from the script, but you need to change the settings manually.
+
+1. Set "Remap physical key to hyper key" to "caps lock"
+2. Enable "Quick press caps lock to execute"
+3. Remove all checkboxes from "Apply hyper key modifiers..."
+4. Enable "Open on login"
