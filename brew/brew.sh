@@ -60,6 +60,7 @@ brew install --cask vlc
 brew install --cask notion
 brew install --cask notion-calendar
 brew install --cask font-fira-code
+brew install -—cask hyperkey
 
 # Personal
 brew install --cask whatsapp
