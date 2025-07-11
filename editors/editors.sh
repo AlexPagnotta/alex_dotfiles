@@ -38,6 +38,7 @@ cursor --install-extension enkia.tokyo-night
 cursor --install-extension vitest.explorer
 cursor --install-extension ms-playwright.playwright
 cursor --install-extension wayou.vscode-todo-highlight
+cursor --install-extension unifiedjs.vscode-mdx
 
 # Sublime is not used anymore
 
