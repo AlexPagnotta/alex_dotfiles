@@ -1,20 +1,16 @@
 # Load utils
 cd ${BASH_SOURCE%/*}
-source ../utils/folder_files.sh 
-source ../utils/lib.sh 
+source ../utils/folder_files.sh
+source ../utils/lib.sh
 
 # Direcotry of files to symlink
 filesDir="$(pwd)/files"
 
 title "EDITORS SCRIPT"
 
-action "Configuring Warp Terminal"
+action "Configuring Zed"
 
-defaults import dev.warp.Warp-Stable "$filesDir/warp-terminal/settings.plist"
-
-# action "Configuring VsCode"
-
-# ln -s "$filesDir/vscode/settings.json" "$vsCodeTargetDir/settings.json"
+ln -s "$filesDir/zed/settings.json" "$zedTargetDir/settings.json"
 
 action "Configuring Cursor"
 
@@ -54,6 +50,6 @@ cursor --install-extension unifiedjs.vscode-mdx
 # # Copy packages
 # cp "$filesDir/sublime/packages/Dracula Color Scheme.sublime-package" "$sublimeTargetDir/Installed Packages/Dracula Color Scheme.sublime-package"
 
-warning "Config to import/setup manually: \n   - Cursor (Rules & internal settings) \n" 
+warning "Config to import/setup manually: \n   - Cursor (Rules & internal settings) \n"
 
 success "Script completed"

@@ -1,6 +1,6 @@
 # Load lib
 cd ${BASH_SOURCE%/*}
-source ../utils/lib.sh 
+source ../utils/lib.sh
 
 title "DEV SCRIPT"
 
@@ -26,7 +26,6 @@ volta install node
 
 action "Installing global npm packages"
 
-npm install -g eslint prettier
+npm install -g biome
 
 success "Script completed"
-
