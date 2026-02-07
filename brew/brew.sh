@@ -30,6 +30,8 @@ brew install ffmpeg
 brew install wget
 brew install git
 brew install volta
+brew install zsh-syntax-highlighting
+brew install starship
 
 
 action "Installing Brew Cask packages"
