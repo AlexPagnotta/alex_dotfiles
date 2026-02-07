@@ -1,0 +1,80 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+	"prettier": {
+		"allowed": false
+	},
+	"formatter": {
+		"language_server": {
+			"name": "biome"
+		}
+	},
+	"code_actions_on_format": {
+		"source.fixAll.biome": true,
+		"source.organizeImports.biome": true
+	},
+	"lsp": {
+		"tailwindcss-language-server": {
+			"settings": {
+				"classAttributes": ["class", "className", "cx", "cva", "cn"]
+			}
+		}
+	},
+	"languages": {
+		"CSS": {
+			"language_servers": ["tailwindcss-language-server"]
+		}
+	},
+	"agent_servers": {
+		"claude": {
+			"favorite_models": ["sonnet"]
+		}
+	},
+	"agent": {
+		"default_model": {
+			"provider": "copilot_chat",
+			"model": "gpt-5-mini"
+		},
+		"favorite_models": [],
+		"model_parameters": []
+	},
+	"icon_theme": "Colored Zed Icons Theme Dark",
+	"edit_predictions": {
+		"provider": "copilot"
+	},
+	"terminal": {
+		"shell": {
+			"program": "/bin/zsh"
+		}
+	},
+	"colorize_brackets": true,
+	"buffer_line_height": "comfortable",
+	"telemetry": {
+		"diagnostics": true,
+		"metrics": true
+	},
+	"session": {
+		"trust_all_worktrees": true
+	},
+	"buffer_font_fallbacks": ["Menlo", "Monaco", "Courier New", "monospace"],
+	"buffer_font_family": "Fira Code",
+	"file_types": {
+		"jsonc": ["*.jsonc"]
+	},
+	"base_keymap": "Cursor",
+	"ui_font_size": 16.0,
+	"buffer_font_size": 13.0,
+	"theme": "Tokyo Night Dark",
+	"auto_install_extensions": {
+		"html": true,
+		"biome": true,
+		"colored-zed-icons-theme": true,
+		"tokyo-night-dark": true
+	}
+}

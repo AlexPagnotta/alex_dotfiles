@@ -7,7 +7,10 @@ declare -a symlinkFiles=(
 )
 
 # Vs code directory where symlink config files
-vsCodeTargetDir=$HOME/Library/Application\ Support/Code/User
+# vsCodeTargetDir=$HOME/Library/Application\ Support/Code/User
+
+# Zed directory where symlink config files
+zedTargetDir=$HOME/.config/zed
 
 # Cursor directory where symlink config files
 cursorTargetDir=$HOME/Library/Application\ Support/Cursor/User

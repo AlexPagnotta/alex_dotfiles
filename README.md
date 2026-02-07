@@ -23,7 +23,7 @@ This repository contains all my Mac dotfiles, complete with scripts for an easy 
 
 ### Profiles
 
-I currently have two profiles, represented by two beanched (Personal and Work), apart from the master branch that includes configs in common between the two.
+I currently have two profiles, represented by two branches (Personal and Work), apart from the master branch that includes configs in common between the two.
 The main differences are in the apps installed with brew and some changes in the config files.
 
 ## Pre Reset
@@ -35,9 +35,6 @@ Make sure to export all settings from the app that need a manual backup:
   - Export .rayconfig file running the command "Export Settings & Data" in raycast.
   - When asked for password use the one in the Password Manager.
   - Save .rayconfig file inside the config folder of the project.
-
-- Warp Terminal
-  - Run this command on the root of the project to update the settings file `defaults export dev.warp.Warp-Stable editors/files/warp-terminal/settings.plist`
 
 ## Getting Started
 
@@ -112,10 +109,6 @@ Once you have done it, you can add the key to the agent, after that, if you want
 ### Raycast
 
 - Import settings from the .rayconfig file in the config folder of the project.
-
-### Cursor
-
-Generic VsCode settings are set automatically from the script, but you need to import the cursor rules and internal settings manually, see the <a href="Cursor.md">Cursor.md</a> file for more info.
 
 ### Hyperkey
 
