@@ -8,7 +8,7 @@ Here you can find the manual steps needed to complete the mac configuration:
 
 Adjust notifications for each app.
 
-### Focus
+### Full Immersion
 
 Disable "Share across devices", as I want to configure it manually for each one.
 
@@ -18,8 +18,8 @@ Disable "Share across devices", as I want to configure it manually for each one.
 2. Make sure these apps are added to "Open at Login"
    - Bitwarden / 1Password
    - Notion Calendar
-   - Notion (Personal Only)
    - Raycast
+   - Hyperkey
    - Slack (Work Only)
    - Spark (Work Only)
 
@@ -121,23 +121,11 @@ Disable "Share across devices", as I want to configure it manually for each one.
 - 1Password/Bitwardem
 - Spotify
 - Slack/Whatsapp
-- Cursor
-- Warp Terminal
-- SourceTree
+- Craft
+- Zed
+- Ghostty
+- Fork
 - Figma
+- NetNewsWire
 - Settings
 - Download folder
-
-## Launchpad Apps
-
-- Browsers (Arc, Safari, Chrome, Firefox, etc.)
-- Apple
-- Productivity (Notion Calendar, Notion, Bitwarden, iWork, etc.)
-- Messages (Spark, Slack, Whatsapp, etc.)
-- Utility (Raycast, Logi Options, Calibre, Transimission etc.)
-- Development Tools (Cursor Warp, Sourcetree, etc.)
-- Media (Spotify, etc.)
-- Graphics tools (Figma, Blender, Rive, etc.)
-- Games (Nvidia geForce Now, PS Remote Play, etc.)
-- Other
-- Settings

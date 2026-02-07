@@ -5,14 +5,14 @@
 
 export PATH=$HOME/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/local/sbin:$PATH
 
-# Lando
-
-export PATH="/Users/alexpagnotta/.lando/bin${PATH+:$PATH}"; #landopath
-
 # VoltaJS
 
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
+
+# zsh
+
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Init Oh My Zsh
 
@@ -21,6 +21,10 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_DISABLE_COMPFIX=true
 
 source $ZSH/oh-my-zsh.sh
+
+# Starship
+
+eval "$(starship init zsh)"
 
 # Aliases
 
@@ -31,6 +35,3 @@ alias ls='ls -G'
 ssh-add -A
 
 clear
-
-
-
