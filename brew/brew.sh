@@ -43,6 +43,7 @@ mas install 1176895641 #Spark
 
 # Personal
 mas install 1352778147 #Bitwarden
+mas install 1444636541 #Photomator
 
 brew install --cask arc
 brew install --cask google-chrome
@@ -62,11 +63,12 @@ brew install --cask font-fira-code
 brew install -—cask hyperkey
 
 # Personal
+brew install --cask craft
 brew install --cask whatsapp
-brew install --cask transmission
-brew install --cask plex
 brew install --cask vlc
-brew install --cask notion
+brew install --cask omnidisksweeper
+brew install --cask netnewswire
+brew install --cask affinity
 
 
 action "Installing packages from outside brew"
