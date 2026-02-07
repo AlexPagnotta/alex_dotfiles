@@ -3,7 +3,8 @@
 declare -a symlinkFiles=(
   ".zshrc"
   ".ssh/config"
-  ".gitconfig"
+  ".gitconfig",
+  "com.mitchellh.ghostty/config"
 )
 
 # Vs code directory where symlink config files
