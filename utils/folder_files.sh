@@ -4,7 +4,7 @@ declare -a symlinkFiles=(
   ".zshrc"
   ".ssh/config"
   ".gitconfig",
-  "com.mitchellh.ghostty/config"
+  "Library/Application Support/com.mitchellh.ghostty/config"
   ".config/starship.toml"
 )
 
