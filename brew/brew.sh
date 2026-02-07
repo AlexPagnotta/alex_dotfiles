@@ -25,6 +25,8 @@ action "Installing Brew packages"
 brew install wget
 brew install git
 brew install volta
+brew install zsh-syntax-highlighting
+brew install starship
 
 # Work
 
