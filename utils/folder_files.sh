@@ -5,7 +5,9 @@ declare -a symlinkFiles=(
   ".ssh/config"
   ".gitconfig",
   "Library/Application Support/com.mitchellh.ghostty/config"
-  ".config/starship.toml"
+  ".config/starship.toml",
+  ".claude/.CLAUDE.md",
+  ".claude/settings.json"
 )
 
 # Vs code directory where symlink config files

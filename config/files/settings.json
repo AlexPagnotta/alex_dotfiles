@@ -1,0 +1,7 @@
+{
+	"permissions": {
+		"allow": []
+	},
+	"model": "sonnet",
+	"defaultMode": "plan"
+}
