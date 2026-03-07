@@ -3,19 +3,12 @@
 declare -a symlinkFiles=(
   ".zshrc"
   ".ssh/config"
-  ".gitconfig"
-  ".config/starship.toml"
-  "com.mitchellh.ghostty/config"
+  ".gitconfig",
+  "Library/Application Support/com.mitchellh.ghostty/config"
+  ".config/starship.toml",
+  ".claude/.CLAUDE.md",
+  ".claude/settings.json"
 )
-
-# Vs code directory where symlink config files
-# vsCodeTargetDir=$HOME/Library/Application\ Support/Code/User
-
-# Zed directory where symlink config files
-zedTargetDir=$HOME/.config/zed
 
 # Cursor directory where symlink config files
 cursorTargetDir=$HOME/Library/Application\ Support/Cursor/User
-
-# Sublime directory where symlink config files
-# sublimeTargetDir=$HOME/Library/Application\ Support/Sublime\ Text/
