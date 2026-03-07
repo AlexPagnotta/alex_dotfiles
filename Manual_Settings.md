@@ -31,7 +31,6 @@ Disable "Share across devices", as I want to configure it manually for each one.
 ### Control Centre
 
 1. Set the following as "Show in Menu Bar":
-
    - Wifi
    - Bluetooth
    - Display
@@ -122,7 +121,7 @@ Disable "Share across devices", as I want to configure it manually for each one.
 - Spotify
 - Slack/Whatsapp
 - Craft
-- Zed
+- Cursor
 - Ghostty
 - Fork
 - Figma

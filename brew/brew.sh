@@ -45,7 +45,7 @@ brew install --cask logi-options-plus
 brew install --cask spotify
 brew install --cask ghostty
 brew install --cask fork
-brew install --cask zed
+brew install --cask cursor
 brew install --cask bruno
 brew install --cask figma
 brew install --cask blender
@@ -54,6 +54,8 @@ brew install --cask vlc
 brew install --cask notion-calendar
 brew install --cask font-fira-code
 brew install -—cask hyperkey
+curl -fsSL https://claude.ai/install.sh | bash # Claude Code
+
 
 
 action "Installing packages from outside brew"
