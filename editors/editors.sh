@@ -8,17 +8,11 @@ filesDir="$(pwd)/files"
 
 title "EDITORS SCRIPT"
 
-action "Configuring Zed"
-
-ln -s "$filesDir/zed/settings.json" "$zedTargetDir/settings.json"
-
 action "Configuring Cursor"
 
 ln -s "$filesDir/cursor/settings.json" "$cursorTargetDir/settings.json"
 
-action "Installing VsCode/Cursor extensions"
-
-# Replace cursor with code if want to use vscode
+action "Installing Cursor extensions"
 
 cursor --install-extension dsznajder.es7-react-js-snippets
 cursor --install-extension dbaeumer.vscode-eslint
@@ -35,20 +29,6 @@ cursor --install-extension vitest.explorer
 cursor --install-extension ms-playwright.playwright
 cursor --install-extension wayou.vscode-todo-highlight
 cursor --install-extension unifiedjs.vscode-mdx
-
-# Sublime is not used anymore
-
-# action "Configuring Sublime"
-
-# wget "https://packagecontrol.io/Package%20Control.sublime-package" -O "$sublimeTargetDir/Installed Packages/Package Control.sublime-package" "--no-check-certificate";
-
-# # Symlink settings files
-# ln -s "$filesDir/sublime/Package Control.sublime-settings" "$sublimeTargetDir/Packages/User/Package Control.sublime-settings"
-# ln -s "$filesDir/sublime/Preferences.sublime-settings" "$sublimeTargetDir/Packages/User/Preferences.sublime-settings"
-# ln -s "$filesDir/sublime/Package Control.user-ca-bundle" "$sublimeTargetDir/Packages/User/Package Control.user-ca-bundle"
-
-# # Copy packages
-# cp "$filesDir/sublime/packages/Dracula Color Scheme.sublime-package" "$sublimeTargetDir/Installed Packages/Dracula Color Scheme.sublime-package"
 
 warning "Config to import/setup manually: \n   - Cursor (Rules & internal settings) \n"
 
